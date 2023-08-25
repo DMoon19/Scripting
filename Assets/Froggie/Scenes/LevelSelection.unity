@@ -3161,7 +3161,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1834637030192416, guid: 90948bd6e091f7346bc9853d09281e32, type: 3}
       propertyPath: m_Name
-      value: MinimalPlatforms
+      value: Froggie
       objectReference: {fileID: 0}
     - target: {fileID: 114020057219366436, guid: 90948bd6e091f7346bc9853d09281e32,
         type: 3}
@@ -3177,7 +3177,7 @@ PrefabInstance:
     - target: {fileID: 114526828102552616, guid: 90948bd6e091f7346bc9853d09281e32,
         type: 3}
       propertyPath: LevelName
-      value: MinimalLevel
+      value: Menu
       objectReference: {fileID: 0}
     - target: {fileID: 114854082875608866, guid: 90948bd6e091f7346bc9853d09281e32,
         type: 3}
