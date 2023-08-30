@@ -51,7 +51,6 @@ public class Konami : MonoBehaviour
             timer -= Time.deltaTime;
             if (timer < 0) 
             {
-                print("resseting time");
                 timer = 0;
                 index = 0;
             }

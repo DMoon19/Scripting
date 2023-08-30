@@ -13,7 +13,7 @@ public class Vida : GameManager
         this.CurrentLives = CurrentLives;
     }
 
-    public GameObject pipi;
+    public new GameObject pipi;
 
     private void Awake()
     {

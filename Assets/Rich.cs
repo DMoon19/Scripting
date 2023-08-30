@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class Rich : Coin
 {
-    public Text contador;
-    public string escenaSiguiente; // Nombre de la escena a la que quieres cambiar
+    public new Text contador;
+    public new string escenaSiguiente; // Nombre de la escena a la que quieres cambiar
 
     private int valorObjetivo = 1500;
     private int contadorActual = 0;

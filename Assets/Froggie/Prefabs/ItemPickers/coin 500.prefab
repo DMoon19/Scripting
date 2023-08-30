@@ -129,7 +129,7 @@ MonoBehaviour:
   TargetObjectDisableDelay: 1
   contador: {fileID: 0}
   escenaSiguiente: Mesa2
-  PointsToAdd: 500
+  PointsToAdd: 1500
 --- !u!58 &5442212523150127865
 CircleCollider2D:
   m_ObjectHideFlags: 0
