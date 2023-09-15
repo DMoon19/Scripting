@@ -1,3 +1,6 @@
+using System.Dynamic;
+using System.Diagnostics;
+using System.Drawing;
 using UnityEngine;
 using System.Collections;
 using MoreMountains.Tools;
@@ -16,20 +19,11 @@ namespace MoreMountains.CorgiEngine
 
 		/// The amount of points to add when collected
 		[Tooltip("The amount of points to add when collected")]
-        public Text contador;
-        public string escenaSiguiente; // Nombre de la escena a la que quieres cambiar
 
-        private int valorObjetivo = 1500;
-        private int contadorActual = 0;
 
 
         public int PointsToAdd = 10;
 
-        void Start()
-        {
-            contador.text = contadorActual.ToString(); 
-        }
-      
         /// <summary>
         /// Triggered when something collides with the coin
         /// </summary>
@@ -38,16 +32,9 @@ namespace MoreMountains.CorgiEngine
 		{
 			// we send a new points event for the GameManager to catch (and other classes that may listen to it too)
 			CorgiEnginePointsEvent.Trigger(PointsMethods.Add, PointsToAdd);
-            contadorActual += PointsToAdd;
-            print(contadorActual);
-            print(PointsToAdd);
-
-            contador.text = contadorActual.ToString();
-            if (contadorActual >= valorObjetivo)
-            {
-                // Cambiar a la siguiente escena
-                SceneManager.LoadScene(escenaSiguiente);
-            }
+        
         }
+    
+      
 	}
 }

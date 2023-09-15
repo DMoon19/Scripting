@@ -113,6 +113,7 @@ namespace MoreMountains.CorgiEngine
 		{
 			PointsMethod = pointsMethod;
 			Points = points;
+			
 		}
         
 		static CorgiEnginePointsEvent e;
@@ -274,20 +275,7 @@ namespace MoreMountains.CorgiEngine
 			CurrentLives = _initialCurrentLives;
 			MaximumLives = _initialMaximumLives;
 		}
-        public GameObject pipi;
-
-
-        private void OnTriggerEnter2D(Collider2D other)
-        {
-
-            if (other.gameObject.CompareTag("Player"))
-            {
-
-                GainLives(1);
-                Destroy(gameObject);
-				//gameObject.SetActive(false);
-            }
-        }
+        
         /// <summary>
         /// Adds the points in parameters to the current game points.
         /// </summary>

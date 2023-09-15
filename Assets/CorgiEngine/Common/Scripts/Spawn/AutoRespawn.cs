@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Diagnostics;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using MoreMountains.Tools;
@@ -200,6 +201,7 @@ namespace MoreMountains.CorgiEngine
 			{
 				OnRevive.Invoke();
 			}
+			print(gameObject);
 		}
 	}
 }
