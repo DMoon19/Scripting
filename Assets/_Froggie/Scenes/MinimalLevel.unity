@@ -505,6 +505,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 500
       objectReference: {fileID: 0}
+    - target: {fileID: 5890633736147682370, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+        type: 3}
+      propertyPath: controlCoins
+      value: 
+      objectReference: {fileID: 85300741}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8dd817e6eacd0a429aa0de2602e25bd, type: 3}
 --- !u!4 &65712952 stripped
@@ -749,6 +754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 85300740}
+  - component: {fileID: 85300741}
   m_Layer: 0
   m_Name: Coins
   m_TagString: Untagged
@@ -874,6 +880,129 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &85300741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85300739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7ecd8094e21be48a840b716f33d433, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  monedasPicked: 0
+  Aca: {fileID: 236880719}
+  objects:
+  - {fileID: 1504257572}
+  - {fileID: 53962333}
+  - {fileID: 689297134}
+  - {fileID: 1396754303}
+  - {fileID: 2120448707}
+  - {fileID: 98954682}
+  - {fileID: 1749272548}
+  - {fileID: 154769303}
+  - {fileID: 238190536}
+  - {fileID: 1112065318}
+  - {fileID: 407845534}
+  - {fileID: 522393068}
+  - {fileID: 1951861811}
+  - {fileID: 2010493184}
+  - {fileID: 764764097}
+  - {fileID: 10317901}
+  - {fileID: 810973931}
+  - {fileID: 1771467154}
+  - {fileID: 615592581}
+  - {fileID: 1023524683}
+  - {fileID: 1692905412}
+  - {fileID: 1938283964}
+  - {fileID: 662162381}
+  - {fileID: 1218585520}
+  - {fileID: 1877938947}
+  - {fileID: 1442884931}
+  - {fileID: 2063896014}
+  - {fileID: 1831618121}
+  - {fileID: 977962084}
+  - {fileID: 2145013371}
+  - {fileID: 1945938010}
+  - {fileID: 2090169488}
+  - {fileID: 1347596532}
+  - {fileID: 2101224092}
+  - {fileID: 1636683133}
+  - {fileID: 595717467}
+  - {fileID: 602002435}
+  - {fileID: 1162558604}
+  - {fileID: 446368444}
+  - {fileID: 1556845945}
+  - {fileID: 86801418}
+  - {fileID: 337212121}
+  - {fileID: 1166045918}
+  - {fileID: 1262641025}
+  - {fileID: 241432808}
+  - {fileID: 781187319}
+  - {fileID: 1581912287}
+  - {fileID: 1521740535}
+  - {fileID: 63201559}
+  - {fileID: 1396993591}
+  - {fileID: 1881054322}
+  - {fileID: 1665617213}
+  - {fileID: 288894221}
+  - {fileID: 454495699}
+  - {fileID: 259233584}
+  - {fileID: 692505554}
+  - {fileID: 880769665}
+  - {fileID: 2015804798}
+  - {fileID: 362173380}
+  - {fileID: 1325034447}
+  - {fileID: 192478646}
+  - {fileID: 1854962105}
+  - {fileID: 1468110546}
+  - {fileID: 1858428998}
+  - {fileID: 1005309145}
+  - {fileID: 717389142}
+  - {fileID: 1741412042}
+  - {fileID: 125452338}
+  - {fileID: 1134187611}
+  - {fileID: 1424795311}
+  - {fileID: 677273206}
+  - {fileID: 198759302}
+  - {fileID: 519034816}
+  - {fileID: 1298217138}
+  - {fileID: 309021754}
+  - {fileID: 1863271854}
+  - {fileID: 1741067109}
+  - {fileID: 264901606}
+  - {fileID: 1878154600}
+  - {fileID: 1780239288}
+  - {fileID: 202153247}
+  - {fileID: 1514623995}
+  - {fileID: 1714186467}
+  - {fileID: 314476823}
+  - {fileID: 559868004}
+  - {fileID: 747772077}
+  - {fileID: 164607270}
+  - {fileID: 903927422}
+  - {fileID: 455269503}
+  - {fileID: 2128311414}
+  - {fileID: 128415362}
+  - {fileID: 222586112}
+  - {fileID: 1577542521}
+  - {fileID: 880394119}
+  - {fileID: 292774721}
+  - {fileID: 1048423860}
+  - {fileID: 1193653823}
+  - {fileID: 484915481}
+  - {fileID: 887318594}
+  - {fileID: 1316899723}
+  A: 50
 --- !u!1 &86801418 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -2191,6 +2320,12 @@ PrefabInstance:
       objectReference: {fileID: 1680745236}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 927dbe445e5cd92469013302e1adac1a, type: 3}
+--- !u!1 &236880719 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3551981767666040960, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 65712951}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &238190536 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -6785,12 +6920,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
---- !u!1 &920433732 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 7a343ffc127af4b41b1e509d55d21956,
-    type: 3}
-  m_PrefabInstance: {fileID: 920433731}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &929148457 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469248, guid: 7bfb70ab3b6f0d54a9c5d52631b68104,
@@ -7190,6 +7319,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 500 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5890633736147682370, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+        type: 3}
+      propertyPath: controlCoins
+      value: 
+      objectReference: {fileID: 85300741}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8dd817e6eacd0a429aa0de2602e25bd, type: 3}
 --- !u!4 &1017018870 stripped
@@ -7957,7 +8091,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 920433731}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 920433732}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 923a01d66c4618446abb082250646478, type: 3}
@@ -11056,120 +11190,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 920433731}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1505988470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 920433732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e7ecd8094e21be48a840b716f33d433, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 1504257572}
-  - {fileID: 53962333}
-  - {fileID: 689297134}
-  - {fileID: 1396754303}
-  - {fileID: 2120448707}
-  - {fileID: 98954682}
-  - {fileID: 1749272548}
-  - {fileID: 154769303}
-  - {fileID: 238190536}
-  - {fileID: 1112065318}
-  - {fileID: 407845534}
-  - {fileID: 522393068}
-  - {fileID: 1951861811}
-  - {fileID: 2010493184}
-  - {fileID: 764764097}
-  - {fileID: 10317901}
-  - {fileID: 810973931}
-  - {fileID: 1771467154}
-  - {fileID: 615592581}
-  - {fileID: 1023524683}
-  - {fileID: 1692905412}
-  - {fileID: 1938283964}
-  - {fileID: 662162381}
-  - {fileID: 1218585520}
-  - {fileID: 1877938947}
-  - {fileID: 1442884931}
-  - {fileID: 2063896014}
-  - {fileID: 1831618121}
-  - {fileID: 977962084}
-  - {fileID: 2145013371}
-  - {fileID: 1945938010}
-  - {fileID: 2090169488}
-  - {fileID: 1347596532}
-  - {fileID: 2101224092}
-  - {fileID: 1636683133}
-  - {fileID: 595717467}
-  - {fileID: 602002435}
-  - {fileID: 1162558604}
-  - {fileID: 446368444}
-  - {fileID: 1556845945}
-  - {fileID: 86801418}
-  - {fileID: 337212121}
-  - {fileID: 1166045918}
-  - {fileID: 1262641025}
-  - {fileID: 241432808}
-  - {fileID: 781187319}
-  - {fileID: 1581912287}
-  - {fileID: 1521740535}
-  - {fileID: 63201559}
-  - {fileID: 1396993591}
-  - {fileID: 1881054322}
-  - {fileID: 1665617213}
-  - {fileID: 288894221}
-  - {fileID: 454495699}
-  - {fileID: 259233584}
-  - {fileID: 692505554}
-  - {fileID: 880769665}
-  - {fileID: 2015804798}
-  - {fileID: 362173380}
-  - {fileID: 1325034447}
-  - {fileID: 192478646}
-  - {fileID: 1854962105}
-  - {fileID: 1468110546}
-  - {fileID: 1858428998}
-  - {fileID: 1005309145}
-  - {fileID: 717389142}
-  - {fileID: 1741412042}
-  - {fileID: 125452338}
-  - {fileID: 1134187611}
-  - {fileID: 1424795311}
-  - {fileID: 677273206}
-  - {fileID: 198759302}
-  - {fileID: 519034816}
-  - {fileID: 1298217138}
-  - {fileID: 309021754}
-  - {fileID: 1863271854}
-  - {fileID: 1741067109}
-  - {fileID: 264901606}
-  - {fileID: 1878154600}
-  - {fileID: 1780239288}
-  - {fileID: 202153247}
-  - {fileID: 1514623995}
-  - {fileID: 1714186467}
-  - {fileID: 314476823}
-  - {fileID: 559868004}
-  - {fileID: 747772077}
-  - {fileID: 164607270}
-  - {fileID: 903927422}
-  - {fileID: 455269503}
-  - {fileID: 2128311414}
-  - {fileID: 128415362}
-  - {fileID: 222586112}
-  - {fileID: 1577542521}
-  - {fileID: 880394119}
-  - {fileID: 292774721}
-  - {fileID: 1048423860}
-  - {fileID: 1193653823}
-  - {fileID: 484915481}
-  - {fileID: 887318594}
-  - {fileID: 1316899723}
-  A: 50
 --- !u!1 &1514623995 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -15856,6 +15876,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 500 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5890633736147682370, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+        type: 3}
+      propertyPath: controlCoins
+      value: 
+      objectReference: {fileID: 85300741}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8dd817e6eacd0a429aa0de2602e25bd, type: 3}
 --- !u!4 &2048819610 stripped

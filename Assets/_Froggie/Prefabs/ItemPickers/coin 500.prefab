@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7100705641444849913}
   - component: {fileID: 5393327742396203947}
   - component: {fileID: 5442212523150127865}
+  - component: {fileID: 5890633736147682370}
   m_Layer: 0
   m_Name: coin 500
   m_TagString: Untagged
@@ -106,7 +107,6 @@ MonoBehaviour:
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
   PointsToAdd: 500
-  HPTA: {fileID: 3551981767666040960}
 --- !u!58 &5442212523150127865
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -123,3 +123,23 @@ CircleCollider2D:
   m_Offset: {x: 0.049734816, y: 0}
   serializedVersion: 2
   m_Radius: 8.180735
+--- !u!114 &5890633736147682370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3551981767666040960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  controlCoins: {fileID: 0}

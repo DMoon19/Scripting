@@ -28,7 +28,6 @@ public class Pipi : MonoBehaviour
 
                 Gm.GainLives(1);
                 Destroy(gameObject);
-				//gameObject.SetActive(false);
             }
         }
 }
