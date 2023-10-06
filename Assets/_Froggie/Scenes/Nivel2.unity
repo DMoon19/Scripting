@@ -2548,11 +2548,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 500
       objectReference: {fileID: 0}
+    - target: {fileID: 5890633736147682370, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+        type: 3}
+      propertyPath: controlCoins
+      value: 
+      objectReference: {fileID: 747935166}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8dd817e6eacd0a429aa0de2602e25bd, type: 3}
 --- !u!4 &473667609 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3312899416663071756, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 473667608}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &473667610 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3551981767666040960, guid: b8dd817e6eacd0a429aa0de2602e25bd,
     type: 3}
   m_PrefabInstance: {fileID: 473667608}
   m_PrefabAsset: {fileID: 0}
@@ -2641,6 +2652,10 @@ PrefabInstance:
     - target: {fileID: 185888, guid: 6c2ed73007b52d34b9898edef9ad7862, type: 3}
       propertyPath: m_Name
       value: GateToNextLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 185888, guid: 6c2ed73007b52d34b9898edef9ad7862, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 403118, guid: 6c2ed73007b52d34b9898edef9ad7862, type: 3}
       propertyPath: m_RootOrder
@@ -4329,6 +4344,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 747935165}
+  - component: {fileID: 747935166}
   m_Layer: 0
   m_Name: Coins
   m_TagString: Untagged
@@ -4377,6 +4393,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &747935166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747935164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7ecd8094e21be48a840b716f33d433, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  Door: {fileID: 1001580348}
+  monedasPicked: 0
+  Aca: {fileID: 473667610}
+  objects:
+  - {fileID: 505404211}
+  - {fileID: 491693830}
+  - {fileID: 1829563823}
+  - {fileID: 340981369}
+  - {fileID: 1585165601}
+  - {fileID: 945360237}
+  - {fileID: 2094051042}
+  - {fileID: 1010748348}
+  - {fileID: 245173036}
+  - {fileID: 1447182836}
+  - {fileID: 327840901}
+  - {fileID: 408242323}
+  - {fileID: 863858503}
+  - {fileID: 39385770}
+  - {fileID: 1976554359}
+  - {fileID: 341306009}
+  - {fileID: 2094639543}
+  - {fileID: 496848819}
+  - {fileID: 49046198}
+  - {fileID: 2129842847}
+  - {fileID: 1927440615}
+  - {fileID: 254942107}
+  - {fileID: 537627946}
+  A: 22
 --- !u!1001 &784133448
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5503,6 +5566,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 406576, guid: 2d42f980168bc644a97bcfa6fb5a8d0b,
     type: 3}
   m_PrefabInstance: {fileID: 1432258614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1001580348 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 185888, guid: 6c2ed73007b52d34b9898edef9ad7862,
+    type: 3}
+  m_PrefabInstance: {fileID: 484524232}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1003795087
 GameObject:
@@ -8319,62 +8388,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1538888011}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1539477166 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 7a343ffc127af4b41b1e509d55d21956,
-    type: 3}
-  m_PrefabInstance: {fileID: 1450946521}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1539477167 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956,
     type: 3}
   m_PrefabInstance: {fileID: 1450946521}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1539477168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1539477166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e7ecd8094e21be48a840b716f33d433, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 505404211}
-  - {fileID: 491693830}
-  - {fileID: 1829563823}
-  - {fileID: 340981369}
-  - {fileID: 1585165601}
-  - {fileID: 945360237}
-  - {fileID: 2094051042}
-  - {fileID: 1010748348}
-  - {fileID: 245173036}
-  - {fileID: 1447182836}
-  - {fileID: 327840901}
-  - {fileID: 408242323}
-  - {fileID: 863858503}
-  - {fileID: 39385770}
-  - {fileID: 1976554359}
-  - {fileID: 341306009}
-  - {fileID: 2094639543}
-  - {fileID: 496848819}
-  - {fileID: 49046198}
-  - {fileID: 2129842847}
-  - {fileID: 1927440615}
-  - {fileID: 254942107}
-  - {fileID: 537627946}
-  A: 22
 --- !u!114 &1539477170 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11400000, guid: 7a343ffc127af4b41b1e509d55d21956,
     type: 3}
   m_PrefabInstance: {fileID: 1450946521}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1539477166}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 923a01d66c4618446abb082250646478, type: 3}
@@ -11326,6 +11352,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 500 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5890633736147682370, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+        type: 3}
+      propertyPath: controlCoins
+      value: 
+      objectReference: {fileID: 747935166}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8dd817e6eacd0a429aa0de2602e25bd, type: 3}
 --- !u!4 &2071776568 stripped
@@ -11466,6 +11497,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 500 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5890633736147682370, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+        type: 3}
+      propertyPath: controlCoins
+      value: 
+      objectReference: {fileID: 747935166}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8dd817e6eacd0a429aa0de2602e25bd, type: 3}
 --- !u!4 &2094262647 stripped

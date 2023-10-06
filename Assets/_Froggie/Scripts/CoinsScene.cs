@@ -5,16 +5,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using MoreMountains.Tools;
+using Debug = UnityEngine.Debug;
+using UnityEditor.SearchService;
+
 public class CoinsScene : PickableItem
 {
  
 GameManager Gm;
 
-
-
+    [SerializeField] private GameObject Door;
+    [SerializeField] protected int monedasPicked = 0;
+    [SerializeField] private GameObject Aca;
     public GameObject[] objects;
 
     public int A = 0;
+
+    public int MonedasPicked
+    {
+        get{ return monedasPicked;}
+        set{ monedasPicked=value;}
+    }
 
     void Awake()
     {
@@ -31,13 +41,44 @@ GameManager Gm;
             objects[index].SetActive(true);
         }
     }
+
+    public void Start()
+    {
+        UnityEngine.SceneManagement.Scene currentScene = SceneManager.GetActiveScene();
+
+        string sceneName = currentScene.name;
+
+        if (sceneName == "MinimalLevel")
+        {
+            Debug.Log("Nivel:" + sceneName);
+        }
+        else if (sceneName == "Nivel2")
+        {
+            Debug.Log("Nivel:" + sceneName);
+            monedasPicked -=4;
+        }
+    }
     private void Update() {
+
         Gm = FindObjectOfType<GameManager>();
 
-        if(Gm.Points >=001500 ){
-        
-               SceneManager.LoadScene("Nivel2");
+        if (monedasPicked != 0)
+        {
+            Debug.Log("Monedas:" + monedasPicked);
+
+            if (monedasPicked == 3)
+            {
+                
+                SceneManager.LoadScene("Nivel2");
+            }
+            if (monedasPicked == -1)
+            {
+                Door.SetActive(true);
+            }
         }
+        
+
+        
         
     }
 
