@@ -16,7 +16,7 @@ public class Pipi : MonoBehaviour
     void Start()
     {
         Gm = FindObjectOfType<GameManager>();
-        Gm.GainLives(1);
+       // Gm.GainLives(1);
     }
   public GameObject pipi;
 

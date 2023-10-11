@@ -123,12 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!224 &505018 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 22400022, guid: ace2d4bf56f98df4196ff81845a465d7,
-    type: 3}
-  m_PrefabInstance: {fileID: 649951239}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &19782448 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 471364, guid: f58a667c8217aaf42b28e20ef609767b,
@@ -146,6 +140,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: coin 10 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
       objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
@@ -401,6 +400,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -545,6 +549,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -619,6 +628,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: coin 10 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
       objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
@@ -1344,6 +1358,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -1591,6 +1610,51 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 275045351}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &282930449 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 122846, guid: ace2d4bf56f98df4196ff81845a465d7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1453666587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &282930451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282930449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cc9661633907054691550b7147d2fad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  success: 0
+--- !u!114 &282930452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282930449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4747a5f12d7635a439d8a4d2ffcea1c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AvatarHead: {fileID: 282930453}
+  AvatarHead2: {fileID: 21300000, guid: e87fd8a40c8bf8341823c2d543cf07fa, type: 3}
+--- !u!114 &282930453 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11422846, guid: ace2d4bf56f98df4196ff81845a465d7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1453666587}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282930449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &287262782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1849,6 +1913,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -1987,6 +2056,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 268698068}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &341306010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341306009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!4 &357246346 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 471364, guid: f58a667c8217aaf42b28e20ef609767b,
@@ -2213,6 +2303,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -2276,6 +2371,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 400175764}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &400175766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245173036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1 &408242323 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -2418,6 +2534,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -2481,6 +2602,82 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 444840825}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &455497869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 455497870}
+  - component: {fileID: 455497872}
+  - component: {fileID: 455497871}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &455497870
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455497869}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1074379017}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &455497871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455497869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 523262eb0b12be8439a00daad948aa2f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &455497872
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455497869}
+  m_CullTransparentMesh: 0
 --- !u!1001 &473667608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2567,6 +2764,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 473667608}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &473667611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473667610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1001 &483467423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2641,6 +2859,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8151214480986516528, guid: 77156a688c597184a9b55e8e8ecec8c1,
     type: 3}
   m_PrefabInstance: {fileID: 483467423}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &483533852 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 22400022, guid: ace2d4bf56f98df4196ff81845a465d7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1453666587}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &484524232
 PrefabInstance:
@@ -2869,6 +3093,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 76116413}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &491693831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491693830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!4 &495173937 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1186755933243245409, guid: 49a7f91c0a226c24283bbbfc0339f02f,
@@ -2881,6 +3126,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 76047650}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &496848820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496848819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1 &505404211 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -3049,6 +3315,82 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2011948926}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &531548659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 531548660}
+  - component: {fileID: 531548662}
+  - component: {fileID: 531548661}
+  m_Layer: 5
+  m_Name: AvatarHead (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &531548660
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531548659}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.025297737, y: 0.025297737, z: 0.025297737}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 483533852}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1.94, y: 0.29}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &531548661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531548659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e87fd8a40c8bf8341823c2d543cf07fa, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &531548662
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531548659}
+  m_CullTransparentMesh: 0
 --- !u!1 &537627946 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -3531,6 +3873,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -3594,6 +3941,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 602791078}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &602791080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408242323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1001 &624088130
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3994,97 +4362,82 @@ Transform:
   m_Father: {fileID: 1370793983}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &649951239
-PrefabInstance:
+--- !u!1 &681896732
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 100016, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 122846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 38.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -28.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11410468, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_Text
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300002, guid: 9e09c275635a1704f8c95be03fc36589,
-        type: 3}
-    - target: {fileID: 11422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11469452, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: ForcedMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22222848, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_CullTransparentMesh
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -1.94
-      objectReference: {fileID: 0}
-    - target: {fileID: 22422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0.29
-      objectReference: {fileID: 0}
-    - target: {fileID: 22425704, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -71.399994
-      objectReference: {fileID: 0}
-    - target: {fileID: 22449008, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -28.000122
-      objectReference: {fileID: 0}
-    - target: {fileID: 114185218450391126, guid: ace2d4bf56f98df4196ff81845a465d7,
-        type: 3}
-      propertyPath: LevelName
-      value: RetroAdventureLevelSelection
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 681896733}
+  - component: {fileID: 681896735}
+  - component: {fileID: 681896734}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &681896733
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681896732}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99990004, y: 0.99990004, z: 0.99990004}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1074379017}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &681896734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681896732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 523262eb0b12be8439a00daad948aa2f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &681896735
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681896732}
+  m_CullTransparentMesh: 0
 --- !u!1001 &683662526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4255,8 +4608,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11489144, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: CurrentLives
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489144, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
       propertyPath: MaximumLives
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
@@ -4345,6 +4702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 747935165}
   - component: {fileID: 747935166}
+  - component: {fileID: 747935167}
   m_Layer: 0
   m_Name: Coins
   m_TagString: Untagged
@@ -4440,6 +4798,30 @@ MonoBehaviour:
   - {fileID: 254942107}
   - {fileID: 537627946}
   A: 22
+--- !u!114 &747935167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747935164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e5f86ce252031e45aebf318650e1b6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  vidasExtra:
+  - {fileID: 5579462818676763234, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+  - {fileID: 5541318936814572884, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+  Aca: {fileID: 505404211}
+  contadorM: 0
 --- !u!1001 &784133448
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4919,6 +5301,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -4988,6 +5375,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 332887465}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &863858504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863858503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1001 &881756659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5325,6 +5733,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 30330263}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &945360238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945360237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!4 &957791827 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 78aeeb23eda41404dbd56028e99e41df,
@@ -5703,6 +6132,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -5766,6 +6200,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1005328612}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1005328614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39385770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1 &1010748348 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -6002,6 +6457,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -6065,6 +6525,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1054936122}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1054936124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49046198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1001 &1057514209
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6076,6 +6557,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: coin 10 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
       objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
@@ -6140,6 +6626,97 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1057514209}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1074379016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1074379017}
+  - component: {fileID: 1074379020}
+  - component: {fileID: 1074379019}
+  - component: {fileID: 1074379018}
+  m_Layer: 5
+  m_Name: HeartsContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1074379017
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074379016}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.028851923, y: 0.028851923, z: 0.057686545}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 455497870}
+  - {fileID: 681896733}
+  m_Father: {fileID: 483533852}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 0.8846283, y: -0.064086914}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1074379018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074379016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ce4f1b3943f45e4ca7b2ffe31bbbecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HeartFull: {fileID: 21300000, guid: 523262eb0b12be8439a00daad948aa2f, type: 3}
+  HeartEmpty: {fileID: 21300002, guid: 523262eb0b12be8439a00daad948aa2f, type: 3}
+  HeartSize: {x: 50, y: 50}
+  HeartProvision: 10
+--- !u!114 &1074379019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074379016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 3
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!222 &1074379020
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074379016}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1090314667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6718,6 +7295,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: coin 10 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
       objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
@@ -7998,6 +8580,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1057514209}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1447182837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447182836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1001 &1450946521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8039,6 +8642,111 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
+--- !u!1001 &1453666587
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100016, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 122846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -51.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -28.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11410468, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_Text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300002, guid: 9e09c275635a1704f8c95be03fc36589,
+        type: 3}
+    - target: {fileID: 11422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11469452, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: ForcedMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22222848, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 22425704, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -71.399994
+      objectReference: {fileID: 0}
+    - target: {fileID: 22449008, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -28.000122
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010455131338, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010509237718, guid: ace2d4bf56f98df4196ff81845a465d7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011126308578, guid: ace2d4bf56f98df4196ff81845a465d7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114185218450391126, guid: ace2d4bf56f98df4196ff81845a465d7,
+        type: 3}
+      propertyPath: LevelName
+      value: RetroAdventureLevelSelection
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
 --- !u!4 &1458509243 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 471364, guid: f58a667c8217aaf42b28e20ef609767b,
@@ -8181,6 +8889,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -8244,6 +8957,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1520423973}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1520423975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010748348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!4 &1520701150 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449646, guid: f8d692c45dc507a46a06ae37ccb0bd88,
@@ -8261,6 +8995,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: coin 10 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
       objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
@@ -8544,6 +9283,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1195774376}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1585165602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585165601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1 &1589774527
 GameObject:
   m_ObjectHideFlags: 0
@@ -8859,6 +9619,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -8922,6 +9687,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1675414425}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1675414427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340981369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1001 &1675961881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9066,6 +9852,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -9129,6 +9920,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1685068213}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1685068215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537627946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1001 &1694006690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9140,6 +9952,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: coin 10 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
       objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
@@ -9204,88 +10021,33 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1694006690}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1694006692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327840901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!4 &1708098906 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449646, guid: f8d692c45dc507a46a06ae37ccb0bd88,
     type: 3}
   m_PrefabInstance: {fileID: 1017006036}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1709560212
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1709560213}
-  - component: {fileID: 1709560215}
-  - component: {fileID: 1709560214}
-  m_Layer: 5
-  m_Name: AvatarHead (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1709560213
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709560212}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.025297737, y: 0.025297737, z: 0.025297737}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 505018}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.94, y: 0.29}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1709560214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709560212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e87fd8a40c8bf8341823c2d543cf07fa, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1709560215
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709560212}
-  m_CullTransparentMesh: 0
 --- !u!1001 &1711974538
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10457,6 +11219,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 444840825}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1927440616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927440615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1001 &1935456308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10468,6 +11251,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: coin 10 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
       objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
@@ -10532,6 +11320,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1935456308}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1935456310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829563823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1001 &1935880635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10603,6 +11412,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -10666,57 +11480,54 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1941306325}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1941306327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505404211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1 &1976554359 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
     type: 3}
   m_PrefabInstance: {fileID: 862881678}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1985546795 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 122846, guid: ace2d4bf56f98df4196ff81845a465d7,
-    type: 3}
-  m_PrefabInstance: {fileID: 649951239}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1985546797
+--- !u!114 &1976554360
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985546795}
+  m_GameObject: {fileID: 1976554359}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cc9661633907054691550b7147d2fad, type: 3}
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  success: 0
---- !u!114 &1985546798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985546795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4747a5f12d7635a439d8a4d2ffcea1c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AvatarHead: {fileID: 1985546799}
-  AvatarHead2: {fileID: 21300000, guid: e87fd8a40c8bf8341823c2d543cf07fa, type: 3}
---- !u!114 &1985546799 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11422846, guid: ace2d4bf56f98df4196ff81845a465d7,
-    type: 3}
-  m_PrefabInstance: {fileID: 649951239}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985546795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1001 &2000548333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11003,6 +11814,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -11066,6 +11882,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2037937529}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2037937531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254942107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1001 &2042545959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11365,6 +12202,33 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2071776567}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2071776569 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3551981767666040960, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2071776567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2071776570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071776569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1001 &2086578971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11510,12 +12374,60 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2094262646}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2094262648 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3551981767666040960, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2094262646}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2094262649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094262648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1 &2094639543 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
     type: 3}
   m_PrefabInstance: {fileID: 64446137}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2094639544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094639543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1001 &2098232505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11587,6 +12499,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 10 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Monedasvida
+      objectReference: {fileID: 0}
     - target: {fileID: 6513495851289043227, guid: 927dbe445e5cd92469013302e1adac1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -11650,6 +12567,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2100144057}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2100144059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094051042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1 &2114155522
 GameObject:
   m_ObjectHideFlags: 0
@@ -11776,6 +12714,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1522015081}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2129842848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129842847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1001 &2145282032
 PrefabInstance:
   m_ObjectHideFlags: 0

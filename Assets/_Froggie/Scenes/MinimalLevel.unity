@@ -136,6 +136,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1178712290}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &10317906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10317901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &10317910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10317901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &14625431 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 406576, guid: 2d42f980168bc644a97bcfa6fb5a8d0b,
@@ -391,6 +435,50 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 53962331}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &53962337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53962333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &53962341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53962333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &63201559 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -403,6 +491,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1794527613}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &63201564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63201559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &63201568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63201559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &63624615
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,6 +637,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin 500
       objectReference: {fileID: 0}
+    - target: {fileID: 5890633736147682370, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+        type: 3}
+      propertyPath: coins
+      value: 
+      objectReference: {fileID: 1504257572}
+    - target: {fileID: 5890633736147682370, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+        type: 3}
+      propertyPath: coinsnivel
+      value: 
+      objectReference: {fileID: 236880719}
     - target: {fileID: 5890633736147682370, guid: b8dd817e6eacd0a429aa0de2602e25bd,
         type: 3}
       propertyPath: controlCoins
@@ -755,6 +897,7 @@ GameObject:
   m_Component:
   - component: {fileID: 85300740}
   - component: {fileID: 85300741}
+  - component: {fileID: 85300742}
   m_Layer: 0
   m_Name: Coins
   m_TagString: Untagged
@@ -899,8 +1042,8 @@ MonoBehaviour:
   DisableTargetObjectOnPick: 0
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
+  Door: {fileID: 0}
   monedasPicked: 0
-  Aca: {fileID: 236880719}
   objects:
   - {fileID: 1504257572}
   - {fileID: 53962333}
@@ -1003,6 +1146,26 @@ MonoBehaviour:
   - {fileID: 887318594}
   - {fileID: 1316899723}
   A: 50
+--- !u!114 &85300742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85300739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4144e7afbabc56249804f9214d7515da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  monedasPicked2: 0
 --- !u!1 &86801418 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -1015,6 +1178,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1767734094}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &86801423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86801418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &86801427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86801418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &95191383 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467262, guid: 16d6140d804c29a43a158e3c05a2d7af,
@@ -1191,6 +1398,50 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 98954680}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &98954686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98954682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &98954690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98954682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &110518717
 GameObject:
   m_ObjectHideFlags: 0
@@ -1506,6 +1757,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 848331790}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &125452343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125452338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &125452347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125452338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &128415362 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -1518,6 +1813,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 574296165}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &128415367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128415362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &128415371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128415362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &141475839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1668,6 +2007,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1188017926}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &154769308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154769303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &154769312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154769303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &164607270 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -1680,6 +2063,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1388209266}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &164607275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164607270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &164607279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164607270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &179424663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1878,6 +2305,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2089061158}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &192478651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192478646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &192478655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192478646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &198759302 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -1890,6 +2361,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 452977361}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &198759307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198759302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &198759311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198759302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &199881881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1987,6 +2502,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 739830105}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &202153252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202153247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &202153256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202153247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &213527044
 GameObject:
   m_ObjectHideFlags: 0
@@ -2235,12 +2794,77 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1688517653}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &222586117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222586112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &222586121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222586112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &229265051 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4675380620446092201, guid: 7085b62d000a9064b92d5ca99da70cd5,
     type: 3}
   m_PrefabInstance: {fileID: 1057450942}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &229265056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229265051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1001 &235616664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2326,6 +2950,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 65712951}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &236880724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236880719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1 &238190536 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -2338,6 +2983,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1171209756}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &238190541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238190536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &238190545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238190536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &241432808 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -2350,6 +3039,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1800772688}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &241432813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241432808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &241432817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241432808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &246209759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2506,6 +3239,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1113819701}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &259233589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259233584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &259233593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259233584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &264901606 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -2518,6 +3295,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1971891052}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &264901611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264901606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &264901615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264901606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &269367636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2680,6 +3501,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1418966664}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &288894226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288894221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &288894230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288894221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &292774721 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -2692,6 +3557,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1246855437}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &292774726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292774721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &292774730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292774721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &296985893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2858,6 +3767,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1637472552}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &309021759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309021754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &309021763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309021754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &314476823 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -2870,6 +3823,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1138045077}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &314476828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314476823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &314476832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314476823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &315831311 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 406576, guid: 2d42f980168bc644a97bcfa6fb5a8d0b,
@@ -2957,6 +3954,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 783144407}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &337212126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337212121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &337212130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337212121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &350584006 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 445620, guid: d39eb7b8fc88a2842b4b1307778defdd,
@@ -2969,6 +4010,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1857048652}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &353200438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353200433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1 &362173380 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -2981,6 +4043,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 235616664}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &362173385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362173380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &362173389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362173380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &364025797 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 486746, guid: bc8e0f194b7579e49aee87fbe7c155be,
@@ -3680,6 +4786,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 545773615}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &407845539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407845534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &407845543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407845534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &446368444 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -3692,6 +4842,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1151761068}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &446368449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446368444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &446368453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446368444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &448079022 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 486746, guid: bc8e0f194b7579e49aee87fbe7c155be,
@@ -3789,6 +4983,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1293356810}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &454495704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454495699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &454495708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454495699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &455168181 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 406576, guid: 2d42f980168bc644a97bcfa6fb5a8d0b,
@@ -3807,6 +5045,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1769581598}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &455269508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455269503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &455269512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455269503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &455918521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3959,6 +5241,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 399762005}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &484915486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484915481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &484915490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484915481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &496887367 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 406922, guid: b3226c9beca043346a45706fd491954d,
@@ -4056,6 +5382,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1097743816}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &519034821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519034816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &519034825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519034816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &522393068 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -4068,6 +5438,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 391285281}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &522393073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522393068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &522393077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522393068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &527260505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4594,6 +6008,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 216999241}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &559868009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559868004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &559868013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559868004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &574296165
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4764,6 +6222,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 298973784}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &595717472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595717467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &595717476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595717467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &597202032
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4855,12 +6357,77 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 115380315}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &602002440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602002435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &602002444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602002435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &612967398 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4675380620446092201, guid: 7085b62d000a9064b92d5ca99da70cd5,
     type: 3}
   m_PrefabInstance: {fileID: 1919934049}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &612967403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612967398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!1 &612980870 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1733703776698432, guid: 7374ceb9f0821d644a437d55dbe8667c,
@@ -4885,6 +6452,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2035615290}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &615592586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615592581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &615592590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615592581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &617218663 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 486746, guid: bc8e0f194b7579e49aee87fbe7c155be,
@@ -5031,6 +6642,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 391277715}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &662162386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662162381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &662162390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662162381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &662289487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5392,6 +7047,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1964063713}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &677273211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677273206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &677273215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677273206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &682542735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5726,6 +7425,50 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 689297132}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &689297138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689297134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &689297142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689297134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &692505554 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -5738,6 +7481,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1668500045}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &692505559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692505554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &692505563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692505554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!224 &695278296 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 22400022, guid: ace2d4bf56f98df4196ff81845a465d7,
@@ -5835,6 +7622,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1731001366}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &717389147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717389142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &717389151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717389142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &723012215
 GameObject:
   m_ObjectHideFlags: 0
@@ -6074,6 +7905,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 676488449}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &747772082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747772077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &747772086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747772077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &754672966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6232,6 +8107,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 401871558}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &764764102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764764097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &764764106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764764097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &781187319 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -6244,6 +8163,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 862998266}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &781187324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781187319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &781187328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781187319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &783144407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6420,6 +8383,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 96097127}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &810973936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810973931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &810973940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810973931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &819862227 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467142, guid: 212f46edd9183c240bd2e021d387f6a0,
@@ -6764,6 +8771,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1117258584}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &880394124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880394119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &880394128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880394119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &880769665 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -6776,6 +8827,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1550904623}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &880769670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880769665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &880769674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880769665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &887318594 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -6788,6 +8883,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 708475283}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &887318599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887318594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &887318603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887318594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &889202751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6879,6 +9018,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 687665456}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &903927427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903927422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &903927431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903927422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &920433731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7088,6 +9271,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 527260505}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &977962089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977962084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &977962093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977962084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &981217628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7165,6 +9392,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1406755100}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1005309150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005309145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1005309154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005309145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &1007076134 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467142, guid: 212f46edd9183c240bd2e021d387f6a0,
@@ -7321,6 +9592,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5890633736147682370, guid: b8dd817e6eacd0a429aa0de2602e25bd,
         type: 3}
+      propertyPath: coins
+      value: 
+      objectReference: {fileID: 1504257572}
+    - target: {fileID: 5890633736147682370, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+        type: 3}
+      propertyPath: coinsnivel
+      value: 
+      objectReference: {fileID: 236880719}
+    - target: {fileID: 5890633736147682370, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+        type: 3}
       propertyPath: controlCoins
       value: 
       objectReference: {fileID: 85300741}
@@ -7423,6 +9704,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2112347105}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1023524688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023524683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1023524692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023524683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &1028685000 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1733703776698432, guid: 7374ceb9f0821d644a437d55dbe8667c,
@@ -7592,6 +9917,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 870223876}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1048423865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048423860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1048423869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048423860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1057450942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8003,6 +10372,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1678683546}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1112065323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112065318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1112065327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112065318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1113819701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8185,6 +10598,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 889202751}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1134187616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134187611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1134187620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134187611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1135517837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8424,6 +10881,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 82119810}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1162558609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162558604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1162558613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162558604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &1163669316 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 486746, guid: bc8e0f194b7579e49aee87fbe7c155be,
@@ -8442,6 +10943,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 530272064}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1166045923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166045918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1166045927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166045918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1171209756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8770,6 +11315,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 269367636}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1193653828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193653823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1193653832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193653823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1209545692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8989,6 +11578,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 809989950}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1218585525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218585520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1218585529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218585520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1231733245
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9423,6 +12056,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 685247971}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1262641030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262641025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1262641034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262641025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1269200925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9583,6 +12260,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1375391164}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1298217143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298217138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1298217147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298217138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1299588660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9661,6 +12382,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1318394472}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1316899728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316899723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1316899732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316899723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1318394472
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9752,6 +12517,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1614541052}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1325034452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325034447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1325034456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325034447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1347235614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9833,6 +12642,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1209545692}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1347596537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347596532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1347596541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347596532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &1370202359 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1733703776698432, guid: 7374ceb9f0821d644a437d55dbe8667c,
@@ -10212,6 +13065,50 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1396754301}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1396754307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396754303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1396754311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396754303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &1396993591 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -10224,6 +13121,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 597202032}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1396993596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396993591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1396993600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396993591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1400120928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10745,6 +13686,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1244065875}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1424795316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424795311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1424795320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424795311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &1442884931 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -10757,6 +13742,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1555619305}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1442884936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442884931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1442884940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442884931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1443016421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10933,6 +13962,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1686199288}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1468110551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468110546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1468110555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468110546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &1481069880 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1733703776698432, guid: 7374ceb9f0821d644a437d55dbe8667c,
@@ -11260,6 +14333,50 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1019560133}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1504257576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504257572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1504257582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504257572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &1505988468 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956,
@@ -11278,6 +14395,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1495816792}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1514624000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514623995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1514624004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514623995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &1521740535 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -11290,6 +14451,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 387619483}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1521740540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521740535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1521740544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521740535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1522011384
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11835,6 +15040,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 25351315}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1556845950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556845945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1556845954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556845945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &1564175347
 GameObject:
   m_ObjectHideFlags: 0
@@ -12048,6 +15297,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 591222470}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1577542526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577542521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1577542530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577542521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &1581912287 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -12060,6 +15353,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1412201243}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1581912292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581912287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1581912296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581912287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &1582825137 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400832, guid: bd1ee4470f9d1b8408a995c9702c82e0,
@@ -12305,6 +15642,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1716883924}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1636683138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636683133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1636683142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636683133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1637472552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12658,6 +16039,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 141475839}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1665617218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665617213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1665617222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665617213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1668500045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12842,6 +16267,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+--- !u!1 &1675484832 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3551981767666040960, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2048819609}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1678683546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13188,6 +16619,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1989323914}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1692905417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692905412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1692905421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692905412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &1694754514 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 460876, guid: 34fd74edafe3de545884d7ffeaac718a,
@@ -13251,7 +16726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11489144, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
       propertyPath: MaximumLives
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
@@ -13364,6 +16839,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1659453801}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1714186472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714186467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1714186476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714186467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1716883924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13794,6 +17313,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 506578597}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1741067114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741067109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1741067118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741067109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &1741412042 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -13806,6 +17369,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 35680233}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1741412047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741412042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1741412051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741412042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &1749272548 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -13818,6 +17425,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1486313808}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1749272553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749272548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1749272557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749272548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &1755850432 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449592, guid: c71445bba16cb7d49a7afa3bb46a0581,
@@ -14046,6 +17697,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1722762692}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1771467159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771467154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1771467163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771467154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &1780239288 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -14058,6 +17753,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1176708567}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1780239293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780239288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1780239297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780239288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1794527613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14228,12 +17967,83 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1628126178}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1831618126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831618121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1831618130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831618121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &1833392076 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 486746, guid: bc8e0f194b7579e49aee87fbe7c155be,
     type: 3}
   m_PrefabInstance: {fileID: 1882944634}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1840381503 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3551981767666040960, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1017018869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1840381508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840381503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!4 &1847119024 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 486746, guid: bc8e0f194b7579e49aee87fbe7c155be,
@@ -14258,6 +18068,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1682822962}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1854962110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854962105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1854962114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854962105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1857048652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14350,6 +18204,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1700741021}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1858429003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858428998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1858429007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858428998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &1858949005
 GameObject:
   m_ObjectHideFlags: 0
@@ -14545,6 +18443,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1097028905}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1863271859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863271854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1863271863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863271854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &1877938947 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -14557,6 +18499,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1553759081}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1877938952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877938947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1877938956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877938947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &1878154600 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -14569,6 +18555,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1860814451}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1878154605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878154600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1878154609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878154600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1879157695
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14642,6 +18672,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1443016421}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1881054327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881054322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1881054331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881054322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1882944634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14724,7 +18798,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4947677323796814, guid: 7374ceb9f0821d644a437d55dbe8667c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.535323
+      value: 8.85
       objectReference: {fileID: 0}
     - target: {fileID: 4947677323796814, guid: 7374ceb9f0821d644a437d55dbe8667c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14950,6 +19024,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1231733245}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1938283969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938283964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1938283973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938283964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1943365357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15025,6 +19143,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 471135112}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1945938015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945938010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1945938019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945938010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &1951861811 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -15037,6 +19199,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1545580520}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1951861816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951861811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1951861820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951861811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &1960320454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15724,6 +19930,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 199881881}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2010493189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010493184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &2010493193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010493184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &2015804798 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5660294897631658248, guid: 927dbe445e5cd92469013302e1adac1a,
@@ -15736,6 +19986,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 83200812}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2015804803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015804798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &2015804807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015804798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &2035615290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16044,6 +20338,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5890633736147682370, guid: b8dd817e6eacd0a429aa0de2602e25bd,
         type: 3}
+      propertyPath: coins
+      value: 
+      objectReference: {fileID: 1504257572}
+    - target: {fileID: 5890633736147682370, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+        type: 3}
+      propertyPath: coinsnivel
+      value: 
+      objectReference: {fileID: 236880719}
+    - target: {fileID: 5890633736147682370, guid: b8dd817e6eacd0a429aa0de2602e25bd,
+        type: 3}
       propertyPath: controlCoins
       value: 
       objectReference: {fileID: 85300741}
@@ -16055,6 +20359,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2048819609}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2048819615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675484832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
 --- !u!4 &2053278033 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449646, guid: f8d692c45dc507a46a06ae37ccb0bd88,
@@ -16097,6 +20422,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1522011384}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2063896019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063896014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &2063896023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063896014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1001 &2079794689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16347,6 +20716,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1451557821}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2090169493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090169488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &2090169497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090169488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &2095897623 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 486746, guid: bc8e0f194b7579e49aee87fbe7c155be,
@@ -16365,6 +20778,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1249382528}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2101224097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101224092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &2101224101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101224092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &2103873327 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 486746, guid: bc8e0f194b7579e49aee87fbe7c155be,
@@ -16632,6 +21089,50 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2120448705}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2120448711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120448707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &2120448715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120448707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &2121699807 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 486746, guid: bc8e0f194b7579e49aee87fbe7c155be,
@@ -16656,6 +21157,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 540759481}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2128311419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128311414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &2128311423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128311414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!1 &2137214068
 GameObject:
   m_ObjectHideFlags: 0
@@ -16828,6 +21373,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 375524506}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2145013376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145013371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &2145013380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145013371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af660eb99dbcffb42b6e0b5aea711ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  coins: {fileID: 1504257572}
+  coinsnivel: {fileID: 0}
+  controlCoins: {fileID: 85300741}
+  vidasCoins: {fileID: 85300742}
 --- !u!4 &2146495090 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 471364, guid: f58a667c8217aaf42b28e20ef609767b,

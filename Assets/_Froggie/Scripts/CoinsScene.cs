@@ -15,7 +15,7 @@ GameManager Gm;
 
     [SerializeField] private GameObject Door;
     [SerializeField] protected int monedasPicked = 0;
-    [SerializeField] private GameObject Aca;
+  
     public GameObject[] objects;
 
     public int A = 0;
@@ -25,6 +25,7 @@ GameManager Gm;
         get{ return monedasPicked;}
         set{ monedasPicked=value;}
     }
+
 
     void Awake()
     {
