@@ -56,7 +56,7 @@ GameManager Gm;
         else if (sceneName == "Nivel2")
         {
             Debug.Log("Nivel:" + sceneName);
-            monedasPicked -=4;
+            monedasPicked -=5;
         }
     }
     private void Update() {

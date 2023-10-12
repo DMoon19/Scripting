@@ -275,7 +275,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &78648447
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1501,7 +1501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 1071044117}
   m_sendNavigationEvents: 1
   m_DragThreshold: 5
 --- !u!1 &469008222
@@ -2154,6 +2154,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055306223}
   m_CullTransparentMesh: 0
+--- !u!1 &1071044117 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1403491994287184, guid: 85ed68275a5ae204386fa5b5d4275b0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 200454585}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1102775796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2504,7 +2510,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1299068861
 RectTransform:
   m_ObjectHideFlags: 0
