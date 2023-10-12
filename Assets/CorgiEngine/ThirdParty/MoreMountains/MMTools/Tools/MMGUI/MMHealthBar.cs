@@ -190,7 +190,7 @@ namespace MoreMountains.Tools
 
 			if (_progressBar != null)
 			{
-				_progressBar.gameObject.SetActive(AlwaysVisible);
+				//_progressBar.gameObject.SetActive(AlwaysVisible);
 				return;
 			}
 
@@ -218,7 +218,7 @@ namespace MoreMountains.Tools
 
 			if (!AlwaysVisible)
 			{
-				_progressBar.gameObject.SetActive(false);
+				//_progressBar.gameObject.SetActive(false);
 			}
 
 			if (_progressBar != null)
@@ -349,7 +349,7 @@ namespace MoreMountains.Tools
 
 			if (_showBar)
 			{
-				_progressBar.gameObject.SetActive(true);
+				//_progressBar.gameObject.SetActive(true);
 				float currentTime = (TimeScale == TimeScales.UnscaledTime) ? Time.unscaledTime : Time.time;
 				if (currentTime - _lastShowTimestamp > DisplayDurationOnHit)
 				{

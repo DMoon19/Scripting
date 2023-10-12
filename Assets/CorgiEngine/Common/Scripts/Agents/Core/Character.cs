@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Buffers;
+using UnityEngine;
 using System.Collections;
 using MoreMountains.Tools;
 using System.Collections.Generic;
@@ -172,6 +173,7 @@ namespace MoreMountains.CorgiEngine
 		protected const string _randomAnimationParameterName = "Random";
 		protected const string _randomConstantAnimationParameterName = "RandomConstant";
 		protected const string _flipAnimationParameterName = "Flip";
+		protected const string _ataqueAnimationParameterName = "Ataque";
 
 		protected int _groundedAnimationParameter;
 		protected int _airborneSpeedAnimationParameter;
@@ -189,6 +191,8 @@ namespace MoreMountains.CorgiEngine
 		protected int _randomAnimationParameter;
 		protected int _randomConstantAnimationParameter;
 		protected int _flipAnimationParameter;
+		protected int _ataqueAnimationParameter;
+		
 
 		protected CorgiController _controller;
 		protected SpriteRenderer _spriteRenderer;
@@ -615,6 +619,7 @@ namespace MoreMountains.CorgiEngine
 			MMAnimatorExtensions.AddAnimatorParameterIfExists(_animator, _randomAnimationParameterName, out _randomAnimationParameter, AnimatorControllerParameterType.Float, _animatorParameters);
 			MMAnimatorExtensions.AddAnimatorParameterIfExists(_animator, _randomConstantAnimationParameterName, out _randomConstantAnimationParameter, AnimatorControllerParameterType.Int, _animatorParameters);
 			MMAnimatorExtensions.AddAnimatorParameterIfExists(_animator, _flipAnimationParameterName, out _flipAnimationParameter, AnimatorControllerParameterType.Trigger, _animatorParameters);
+			MMAnimatorExtensions.AddAnimatorParameterIfExists(_animator, _ataqueAnimationParameterName, out _ataqueAnimationParameter, AnimatorControllerParameterType.Trigger, _animatorParameters);
 
 			// we update our constant float animation parameter
 			int randomConstant = UnityEngine.Random.Range(0, 1000);
@@ -871,6 +876,19 @@ namespace MoreMountains.CorgiEngine
 					_targetModelRotation.z = _targetModelRotation.z % 360;
 				}
 			}
+		}
+
+		InputManager iM;
+		/// <summary>
+		/// Triggerea la animacion de ataque
+		/// </summary>
+		public virtual void Ataque()
+		{
+			if (iM.ShootButton.State.CurrentState == MMInput.ButtonStates.ButtonDown)
+			{
+				MMAnimatorExtensions.SetAnimatorTrigger(_animator, _ataqueAnimationParameter, _animatorParameters, PerformAnimatorSanityChecks);  
+			}
+			
 		}
 
 		/// <summary>

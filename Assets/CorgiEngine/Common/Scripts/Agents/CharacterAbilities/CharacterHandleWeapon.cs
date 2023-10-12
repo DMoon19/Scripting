@@ -205,6 +205,7 @@ namespace MoreMountains.CorgiEngine
 
 			if ((_inputManager.ShootButton.State.CurrentState == MMInput.ButtonStates.ButtonDown) || (_inputManager.ShootAxis == MMInput.ButtonStates.ButtonDown))
 			{
+				
 				ShootStart();
 			}
 
