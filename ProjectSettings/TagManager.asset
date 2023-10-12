@@ -18,7 +18,7 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - Tile
   - Platforms
   - Player
   - Volumes
@@ -58,6 +58,9 @@ TagManager:
     locked: 0
   - name: Platforms
     uniqueID: 600026165
+    locked: 0
+  - name: Tile
+    uniqueID: 84712753
     locked: 0
   - name: Foreground
     uniqueID: 1795597123

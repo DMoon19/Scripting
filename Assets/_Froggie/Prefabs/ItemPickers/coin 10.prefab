@@ -12,13 +12,15 @@ GameObject:
   - component: {fileID: 6591310841606738671}
   - component: {fileID: 9128148598091738206}
   - component: {fileID: 6131839825253847456}
+  - component: {fileID: 1504257576}
+  - component: {fileID: 1504257583}
   m_Layer: 0
   m_Name: coin 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6513495851289043227
 Transform:
   m_ObjectHideFlags: 0
@@ -122,3 +124,36 @@ CircleCollider2D:
   m_Offset: {x: 0.03817528, y: 0}
   serializedVersion: 2
   m_Radius: 8.005233
+--- !u!114 &1504257576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5660294897631658248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1508296b0904b1ba069c225eb6482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnOnPlayerRespawn: 1
+  RepositionToInitOnPlayerRespawn: 0
+  DisableOnKill: 1
+  AutoRespawnDuration: 0
+  AutoRespawnAmount: 3
+  AutoRespawnRemainingAmount: 3
+  IgnoreCheckpointsAlwaysRespawn: 1
+  AssociatedCheckpoints: []
+  RespawnFeedback: {fileID: 0}
+--- !u!114 &1504257583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5660294897631658248}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275a781eb0d5ae143a1133ae4075f3f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

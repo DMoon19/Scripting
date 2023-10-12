@@ -7,14 +7,12 @@ using MoreMountains.CorgiEngine;
 public class Monedas : PickableItem
 {
 [SerializeField] protected GameObject coins;
-[SerializeField] protected GameObject coinsnivel;
 
     [SerializeField] protected CoinsScene controlCoins;
- [SerializeField] protected CoinsVidas vidasCoins;
 
     protected override void Pick(GameObject picker)
     {
-      
+          controlCoins.MonedasPicked++;
 
     }
    
@@ -29,29 +27,6 @@ public class Monedas : PickableItem
     {
       
     }
-     private void OnTriggerEnter2D()
-        {
-
-            if (coins.gameObject.CompareTag("Player"))
-            {
-           vidasCoins.MonedasPicked2++;
-                
-            }
-             else
-             {
-             controlCoins.MonedasPicked++;
-                
-             }
-        }
-//  private void OnTriggerEnter2D(Collider2D coinsnivel)
-//         {
-
-//             if (coinsnivel.gameObject.CompareTag("Player"))
-//             {
-//             controlCoins.MonedasPicked++;
-                
-//             }
-//         }
 
 
          
