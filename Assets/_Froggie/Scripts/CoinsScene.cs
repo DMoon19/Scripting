@@ -11,14 +11,14 @@ using UnityEditor.SearchService;
 public class CoinsScene : PickableItem
 {
  
-GameManager Gm;
-
-    [SerializeField] private GameObject Door;
-    [SerializeField] protected int monedasPicked = 0;
-  
-    public GameObject[] objects;
-
-    public int A = 0;
+    [SerializeField] 
+    private GameObject door;
+    [SerializeField] 
+    protected int monedasPicked = 0;
+    [SerializeField]
+    private GameObject[] objects;
+    [SerializeField]
+    private int limitador = 0;
 
     public int MonedasPicked
     {
@@ -30,7 +30,7 @@ GameManager Gm;
     void Awake()
     {
         List<int> usedIndexes = new List<int>(); // Para evitar duplicados
-        for (int i = 0; i < A; i++)
+        for (int i = 0; i < limitador; i++)
         {
             int index;
             do
@@ -61,7 +61,6 @@ GameManager Gm;
     }
     private void Update() {
 
-        Gm = FindObjectOfType<GameManager>();
 
         if (monedasPicked != 0)
         {
@@ -74,7 +73,7 @@ GameManager Gm;
             }
             if (monedasPicked == -1)
             {
-                Door.SetActive(true);
+                door.SetActive(true);
             }
         }
         
