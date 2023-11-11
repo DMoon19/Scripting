@@ -9,16 +9,8 @@ using MoreMountains.CorgiEngine;
 
 public class Pipi : MonoBehaviour
 {
-
-    GameManager Gm;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        Gm = FindObjectOfType<GameManager>();
-       // Gm.GainLives(1);
-    }
-  public GameObject pipi;
+    [SerializeField]
+    private GameObject pipi;
 
         private void OnTriggerEnter2D(Collider2D other)
         {
@@ -26,7 +18,7 @@ public class Pipi : MonoBehaviour
             if (other.gameObject.CompareTag("Player"))
             {
 
-                Gm.GainLives(1);
+                GameManager.Instance.GainLives(1);
                 Destroy(gameObject);
             }
         }

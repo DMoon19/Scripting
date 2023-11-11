@@ -344,6 +344,7 @@ namespace MoreMountains.Tools
 			if (Target != null)
 			{
 				this.enabled = false;
+				
 			}
 
 			if (!FollowRotation)
