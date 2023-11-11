@@ -239,4 +239,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Froggie/Scenes/Win.unity
     guid: 156cd20b8cc290241b5689e00109e04d
+  - enabled: 1
+    path: Assets/_Froggie/Scenes/Dificil/Level01Dif.unity
+    guid: d44ee75742440ca45b42bc27f8fbab00
+  - enabled: 1
+    path: Assets/_Froggie/Scenes/Dificil/Nivel2Dif.unity
+    guid: 807b183affb08914c884559744105457
+  - enabled: 1
+    path: Assets/_Froggie/Scenes/Facil/Level01F.unity
+    guid: 8061b0c1b7a51ef41bdf0ff064ed3be1
+  - enabled: 1
+    path: Assets/_Froggie/Scenes/Facil/Nivel2F.unity
+    guid: f6fdfd8b8d7ee7844bc17ccf7fa264df
   m_configObjects: {}
