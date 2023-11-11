@@ -1106,7 +1106,7 @@ MonoBehaviour:
   - {fileID: 484915481}
   - {fileID: 887318594}
   - {fileID: 1316899723}
-  limitador: 49
+  limitador: 14
 --- !u!114 &85300742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69807,6 +69807,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: e9958a692226a90499bb7001427a427d,
         type: 3}
+    - target: {fileID: 6091737576532786060, guid: 7374ceb9f0821d644a437d55dbe8667c,
+        type: 3}
+      propertyPath: Active
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7374ceb9f0821d644a437d55dbe8667c, type: 3}
 --- !u!4 &1003346686 stripped
@@ -70108,6 +70113,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925126916320574528, guid: 927dbe445e5cd92469013302e1adac1a,
+        type: 3}
+      propertyPath: Label
+      value: Audio
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 927dbe445e5cd92469013302e1adac1a, type: 3}

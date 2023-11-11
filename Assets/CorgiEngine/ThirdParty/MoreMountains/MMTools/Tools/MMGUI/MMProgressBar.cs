@@ -741,6 +741,7 @@ namespace MoreMountains.Tools
 					{
 						return;
 					}
+					this.enabled = false;
 					float newSizeX = MMMaths.Remap(newAmount, 0f, 1f, 0, initialSize.x);
 					image.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, newSizeX);
 					break;
@@ -750,7 +751,9 @@ namespace MoreMountains.Tools
 					{
 						return;
 					}
-					float newSizeY = MMMaths.Remap(newAmount, 0f, 1f, 0, initialSize.y);
+                    this.enabled = false;
+
+                    float newSizeY = MMMaths.Remap(newAmount, 0f, 1f, 0, initialSize.y);
 					image.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, newSizeY);
 					break;
 

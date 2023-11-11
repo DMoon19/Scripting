@@ -341,6 +341,10 @@ namespace MoreMountains.Tools
 			{
 				return;
 			}
+			if (Target != null)
+			{
+				this.enabled = false;
+			}
 
 			if (!FollowRotation)
 			{
