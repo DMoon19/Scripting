@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using MoreMountains.Tools;
+using UnityEngine.SceneManagement;
 
 namespace MoreMountains.CorgiEngine
 {	
@@ -113,7 +114,41 @@ namespace MoreMountains.CorgiEngine
 			Aim.Initialization();
 			_characterDive = _character?.FindAbility<CharacterDive>();
 			SuccessiveDashesLeft = SuccessiveDashAmount;
-		}
+
+            UnityEngine.SceneManagement.Scene currentScene = SceneManager.GetActiveScene();
+
+            string sceneName = currentScene.name;
+            if (sceneName == "Level01Normal")
+            {
+                this.enabled = false;
+
+            }
+            if (sceneName == "Nivel2")
+            {
+                this.enabled = false;
+
+            }
+            if (sceneName == "Level01F")
+            {
+                this.enabled = true;
+
+            }
+            if (sceneName == "Nivel2F")
+            {
+                this.enabled = true;
+
+            }
+            if (sceneName == "Level01Dif")
+            {
+                this.enabled = false;
+
+            }
+            if (sceneName == "Nivel2Dif")
+            {
+                this.enabled = false;
+
+            }
+        }
 
 		/// <summary>
 		/// At the start of each cycle, we check if we're pressing the dash button. If we
