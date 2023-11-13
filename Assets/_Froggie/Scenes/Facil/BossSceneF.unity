@@ -84358,7 +84358,7 @@ MonoBehaviour:
   InventoryType: 0
   TargetTransform: {fileID: 0}
   Persistent: 1
-  ResetThisInventorySaveOnStart: 0
+  ResetThisInventorySaveOnStart: 1
   DrawContentInInspector: 1
 --- !u!1001 &1989323914
 PrefabInstance:

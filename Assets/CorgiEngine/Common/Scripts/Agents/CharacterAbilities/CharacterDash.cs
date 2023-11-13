@@ -116,52 +116,42 @@ namespace MoreMountains.CorgiEngine
 			SuccessiveDashesLeft = SuccessiveDashAmount;
 
             UnityEngine.SceneManagement.Scene currentScene = SceneManager.GetActiveScene();
-
             string sceneName = currentScene.name;
             if (sceneName == "Level01Normal")
             {
                 this.enabled = false;
-
             }
             if (sceneName == "Nivel2")
             {
                 this.enabled = false;
-
             }
             if (sceneName == "Level01F")
             {
                 this.enabled = true;
-
             }
             if (sceneName == "Nivel2F")
             {
                 this.enabled = true;
-
             }
             if (sceneName == "Level01Dif")
             {
                 this.enabled = false;
-
             }
             if (sceneName == "Nivel2Dif")
             {
                 this.enabled = false;
-
             }
             if (sceneName == "BossSceneF")
             {
                 this.enabled = true;
-
             }
             if (sceneName == "BossScene")
             {
                 this.enabled = false;
-
             }
             if (sceneName == "BossSceneDif")
             {
                 this.enabled = false;
-
             }
         }
 

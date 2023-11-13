@@ -75,18 +75,22 @@ public class CoinsScene : PickableItem
 
             if (monedasPicked == 3 && sceneName == "Level01Normal")
             {
-                
-                SceneManager.LoadScene("Nivel2");
+                LevelManager.Instance.GotoLevel("Nivel2", true, false);
+
+
             }
             if (monedasPicked == 3 && sceneName == "Level01F")
             {
 
-                SceneManager.LoadScene("Nivel2F");
+                LevelManager.Instance.GotoLevel("Nivel2F", true, false);
+
             }
             if (monedasPicked == 3 && sceneName == "Level01Dif")
             {
 
-                SceneManager.LoadScene("Nivel2Dif");
+                LevelManager.Instance.GotoLevel("Nivel2Dif", true, false);
+
+
             }
             if (monedasPicked == -1)
             {

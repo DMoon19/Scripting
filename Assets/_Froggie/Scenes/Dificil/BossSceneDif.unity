@@ -20662,7 +20662,7 @@ MonoBehaviour:
   InventoryType: 0
   TargetTransform: {fileID: 0}
   Persistent: 1
-  ResetThisInventorySaveOnStart: 0
+  ResetThisInventorySaveOnStart: 1
   DrawContentInInspector: 1
 --- !u!1 &1521654130
 GameObject:

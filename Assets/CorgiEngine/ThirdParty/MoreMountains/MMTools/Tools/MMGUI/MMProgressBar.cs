@@ -902,6 +902,7 @@ namespace MoreMountains.Tools
 		/// <param name="delay"></param>
 		public virtual void HideBar(float delay)
 		{
+
 			if (delay <= 0)
 			{
 				this.gameObject.SetActive(false);
