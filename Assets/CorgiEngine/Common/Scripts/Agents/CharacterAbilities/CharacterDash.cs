@@ -148,6 +148,21 @@ namespace MoreMountains.CorgiEngine
                 this.enabled = false;
 
             }
+            if (sceneName == "BossSceneF")
+            {
+                this.enabled = true;
+
+            }
+            if (sceneName == "BossScene")
+            {
+                this.enabled = false;
+
+            }
+            if (sceneName == "BossSceneDif")
+            {
+                this.enabled = false;
+
+            }
         }
 
 		/// <summary>

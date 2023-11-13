@@ -54,10 +54,14 @@ public class CoinsScene : PickableItem
             Debug.Log("Nivel:" + sceneName);
         }
 
-        else if (sceneName == "Nivel2" || sceneName == "Nivel2F" || sceneName == "Nivel2Dif")
+        if (sceneName == "Nivel2" || sceneName == "Nivel2F" || sceneName == "Nivel2Dif")
         {
             Debug.Log("Nivel:" + sceneName);
             monedasPicked -=5;
+        }else if (sceneName == "BossScene" || sceneName == "BossSceneF" || sceneName == "BossSceneDif")
+        {
+            Debug.Log("Nivel:" + sceneName);
+            monedasPicked -= 5;
         }
     }
     public void Update() {
@@ -88,6 +92,11 @@ public class CoinsScene : PickableItem
             {
                 door.SetActive(true);
             }
+            if (monedasPicked == -2)
+            {
+                door.SetActive(true);
+            }
+
         }
         
 

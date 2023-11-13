@@ -54,7 +54,7 @@ EditorBuildSettings:
     path: Assets/CorgiEngine/Demos/Corgi3D/Corgi3D.unity
     guid: 21235c11eb96a4cce9524e313642ab64
   - enabled: 1
-    path: Assets/_Froggie/Scenes/Normal/Level01Normal.unity
+    path: Assets/_Froggie/Scenes/Normal/BossScene.unity
     guid: b5dafbb7f5956d94ba41cd169cc39435
   - enabled: 1
     path: Assets/CorgiEngine/Demos/Minimal/MinimalFlight.unity
@@ -233,9 +233,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Froggie/Scenes/Menus/Instrucciones.unity
     guid: 0d15b76b8cefe274390255d2e07ba8a4
-  - enabled: 1
-    path: Assets/_Froggie/Scenes/Normal/Nivel2.unity
-    guid: c6bd5e5c8d041944dab9f27e2294d8b3
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/_Froggie/Scenes/Win.unity
     guid: 156cd20b8cc290241b5689e00109e04d
@@ -251,4 +251,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Froggie/Scenes/Facil/Nivel2F.unity
     guid: f6fdfd8b8d7ee7844bc17ccf7fa264df
+  - enabled: 1
+    path: Assets/_Froggie/Scenes/Dificil/BossSceneDif.unity
+    guid: d3205e527394b8640a3329b5df365169
+  - enabled: 1
+    path: Assets/_Froggie/Scenes/Facil/BossSceneF.unity
+    guid: 0cd74a1223fe0b34db7303b474b6acf3
   m_configObjects: {}
