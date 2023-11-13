@@ -1,12 +1,5 @@
-using System.Diagnostics;
 using MoreMountains.CorgiEngine;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using MoreMountains.Tools;
-using Debug = UnityEngine.Debug;
-using UnityEditor.SearchService;
 
 public class CoinsVidas : PickableItem
 {

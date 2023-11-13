@@ -1,16 +1,13 @@
-using System.Diagnostics;
 using MoreMountains.CorgiEngine;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using MoreMountains.Tools;
 using Debug = UnityEngine.Debug;
-using UnityEditor.SearchService;
 
 public class CoinsScene : PickableItem
 {
- 
+    [SerializeField]
+    private GameObject memori;
     [SerializeField] 
     private GameObject door;
     [SerializeField] 
@@ -19,6 +16,7 @@ public class CoinsScene : PickableItem
     private GameObject[] objects;
     [SerializeField]
     private int limitador = 0;
+ 
 
     public int MonedasPicked
     {
@@ -45,6 +43,7 @@ public class CoinsScene : PickableItem
 
     public void Start()
     {
+      
         UnityEngine.SceneManagement.Scene currentScene = SceneManager.GetActiveScene();
 
         string sceneName = currentScene.name;
@@ -69,7 +68,7 @@ public class CoinsScene : PickableItem
         UnityEngine.SceneManagement.Scene currentScene = SceneManager.GetActiveScene();
 
         string sceneName = currentScene.name;
-        if (monedasPicked != 0)
+        if (monedasPicked != 0 )
         {
             Debug.Log("Monedas:" + monedasPicked);
 
@@ -96,17 +95,24 @@ public class CoinsScene : PickableItem
             {
                 door.SetActive(true);
             }
-            if (monedasPicked == -2)
+            if (monedasPicked == -2 && sceneName == "BossScene")
+            {
+                door.SetActive(true);
+            }
+            if (monedasPicked == -2 && sceneName == "BossSceneF")
+            {
+                door.SetActive(true);
+            }
+            if (monedasPicked == -2 && sceneName == "BossSceneDif")
             {
                 door.SetActive(true);
             }
 
         }
-        
-
-        
+       
         
     }
+
 
 
    
