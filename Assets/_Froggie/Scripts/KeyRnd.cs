@@ -11,10 +11,4 @@ public class KeyRnd : MonoBehaviour
         int index=Random.Range(0, objects.Length);
         objects[index].SetActive(true);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

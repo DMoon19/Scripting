@@ -13,13 +13,6 @@ public class ControlVentanaModal : MonoBehaviour
     {
         StartCoroutine(AbrirVentana(1.8f));
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void OnContinuar(){
         CerrarVentana();
         //StartCoroutine(CerrarVentana(2));
