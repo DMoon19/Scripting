@@ -257,4 +257,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Froggie/Scenes/Facil/BossSceneF.unity
     guid: 0cd74a1223fe0b34db7303b474b6acf3
+  - enabled: 1
+    path: Assets/_Froggie/Scenes/Normal/Level01Normal.unity
+    guid: b508c230ebe2f1d49a313e3e64dad8db
+  - enabled: 1
+    path: Assets/_Froggie/Scenes/Selector.unity
+    guid: 61da186ed30c60349b5c1461d0560318
   m_configObjects: {}
