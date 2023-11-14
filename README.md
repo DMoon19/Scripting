@@ -11,10 +11,10 @@ Santiago Tobit Gomez Macias
 
 ### Video Hard Mode:
 
-[![Full Video](http://img.youtube.com/vi/XIoY-Sr1XbA/0.jpg)](http://www.youtube.com/watch?v=XIoY-Sr1XbA)
+[![Hard Mode](http://img.youtube.com/vi/XIoY-Sr1XbA/0.jpg)](http://www.youtube.com/watch?v=XIoY-Sr1XbA)
 
 ### Videos x:
 
-[![Full Video](http://img.youtube.com/vi/M2_vQrdxFG4/0.jpg)](http://www.youtube.com/watch?v=M2_vQrdxFG4)
-
+[![Easy and Normal](http://img.youtube.com/vi/M2_vQrdxFG4/0.jpg)](http://www.youtube.com/watch?v=M2_vQrdxFG4)
+[![Fail](http://img.youtube.com/vi/S9qexaaOEcc/0.jpg)](http://www.youtube.com/watch?v=S9qexaaOEcc)
 
