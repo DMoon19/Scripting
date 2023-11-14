@@ -4,6 +4,7 @@ Repo Proyecto Unity
 David Garcia Sanchez
 Santiago Tobit Gomez Macias
 
-![Alt text](https://img.youtube.com/vi/lorYU5VdQvg/0.jpg)
+[![](https://markdown-videos.deta.dev/youtube/lorYU5VdQvg)](https://youtu.be/lorYU5VdQvg)
+
 
 https://www.youtube.com/watch?v=lorYU5VdQvg
